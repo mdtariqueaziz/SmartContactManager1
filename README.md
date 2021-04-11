@@ -23,3 +23,5 @@
   <img src="ScreenShort/Delete_Contact.JPG">
                            <h3>Contact Deleted <h3>
   <img src="ScreenShort/Contact_Deleted.JPG">
+                               <h3>User  Logout<h3>
+  <img src="ScreenShort/Logout.JPG">
