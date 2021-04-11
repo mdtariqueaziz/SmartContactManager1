@@ -15,3 +15,11 @@
   <img src="ScreenShort/Added_Contact.JPG">
            <h3>Contact List <h3>
   <img src="ScreenShort/Contact.JPG">
+               <h3>Contact Detail <h3>
+  <img src="ScreenShort/Contact_detai.JPG">
+                   <h3>Contact Update <h3>
+  <img src="ScreenShort/Update_Contact.JPG">
+                       <h3>Contact Delete <h3>
+  <img src="ScreenShort/Delete_Contact.JPG">
+                           <h3>Contact Deleted <h3>
+  <img src="ScreenShort/Contact_Deleted.JPG">
