@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="normal_user/base::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+	<div class="card" style="margin-right: 25px">
+	   <div class="card-body text-center">
+	     <img id="imgc" class="userProfile" th:src="@{${contact.getImagePath}}" />
+	      <h4 >
+	      <span th:text="${contact.name}"></span>
+	      (<span th:text="${contact.secondName}"></span>)
+	      </h4>
+	     <table class="table">
+					<thead>
+						<tr>
+							<th scope="col">#ID</th>
+							<th scope="col">Email</th>
+							<th scope="col">Phone</th>
+							<th scope="col">Work</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr >
+							<td th:text="${'SCM'+contact.cId}"></td>
+							<td th:text="${contact.email}"></td>
+
+							<td th:text="${contact.phone}"></td>
+							<td th:text="${contact.work}"></td>
+							
+
+							
+						</tr>
+					</tbody>
+				</table>
+				<h3  style="padding: 10px; color: blue;" >Your Description</h3>
+				<h4 th:text="${contact.description}"></h4>
+				<a  class="btn btn-primary btn-block">Update</a>
+				<a  th:onclick="|deleteContact(${contact.cId})|" class="btn btn-danger btn-block">Delete</a>
+	     
+	      
+	   </div>
+	
+	</div>
+	</section>
+</body>
+</html>

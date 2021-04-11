@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+body{
+	background-color: #eaeaea;
+	
+	
+}
+
+
+.bg-primary {
+	background: aqua;
+	color: white;
+}
+
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+
+.banner, img2{
+	width: 100%;
+	height: 93vh;
+	color: white;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0.5, 0.5, 0.1, 0.4),
+		rgba(0.1, 0.5, 0.1, 0.4)), url("../img/contact2.jpeg");
+}
+
+a {
+	color: white;
+	float: right;
+}
+
+.container {
+	width: 60%;
+}
+
+
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #9C9C9C;
+  background-color: white;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+@media only screen and (max-height: 600px){
+.sidebar{
+	display: none;
+	background-color: white;
+	height: 100vh;
+	padding-top: 20px;
+	
+  
+}
+.content{
+	width: 100%;
+	
+ }
+}
+
+
+.sidebar{
+	width: 18%;
+	background-color: white;
+	height: 100%;
+	position: fixed;
+	padding-top: auto;
+    z-index: 99999999999999;
+    
+}
+.sidebar a{
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	text-decoration:  none;
+	color: gray;	
+}
+.sidebar a:hover{
+	background: #eaeaea;
+	
+}
+.sidebar .divider{
+	height: 5px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+}
+
+.content{
+	margin-left: 20%;
+	margin-top: 64px;
+	
+}
+.crossbtn{
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}
+.view{
+	background-color: white;
+	padding: 20px;
+}
+.userProfile{
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+}
+#imgc{
+	width: 170px;
+	height: 170px;
+	border: 2px solid;
+	border-color: black;
+}
+#profile{
+	align-items: center;
+	background-image: url("../img/profile.png");
+		width: 310px;
+		height: 250px;
+		background-size: cover;
+		border-radius: 100%;
+		margin-left: 33%;
+		
+		
+}
+.search-container{
+	position: relative;
+}
+.search-resu{
+	position: absolute;
+	background: white;
+	width: 100%;
+	padding: 3%;
+	border: 1px solid gray;
+	display:  none;
+}
+
+
+
+
